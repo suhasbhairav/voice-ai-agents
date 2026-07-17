@@ -8,7 +8,7 @@
 
 **A realtime Voice AI Agents template built with Next.js, React, Tailwind CSS, JavaScript, OpenAI Agents SDK, Realtime WebRTC, and gpt-realtime-2.1.**
 
-Built by **[Suhas Bhairav](https://suhasbhairav.com)** as part of the **[AI Templates Marketplace](https://suhasbhairav.com/ai-templates)**.
+Built by **[Suhas Bhairav](https://suhasbhairav.com)** as part of the **[AI Templates](https://suhasbhairav.com/ai-templates)**.
 
 > Enterprise-grade starter template for teams that want a working AI application surface, server-side API isolation, responsive UX, and a clear path from prototype to production.
 
@@ -56,7 +56,7 @@ This template is intentionally structured so product teams can evaluate the inte
 
 ## Search And Discovery Keywords
 
-`AI templates` · `AI template` · `AI starter template` · `AI starter templates` · `AI starter kit` · `AI starter kits` · `AI app starter` · `AI app starters` · `AI app templates` · `AI web app templates` · `AI application templates` · `AI boilerplate` · `AI template marketplace` · `AI templates marketplace` · `free AI template` · `free AI templates` · `free AI starter template` · `free AI starter templates`
+`AI templates` · `AI template` · `AI starter template` · `AI starter templates` · `AI starter kit` · `AI starter kits` · `AI app starter` · `AI app starters` · `AI app templates` · `AI web app templates` · `AI application templates` · `AI boilerplate` · `AI templates` · `AI templates` · `free AI template` · `free AI templates` · `free AI starter template` · `free AI starter templates`
 
 ## Architecture
 
@@ -161,7 +161,7 @@ npm run dev -- -p 3001
 - Add structured JSON output schemas.
 - Add evaluation fixtures for critical user journeys.
 
-## Internal Marketplace Links
+## Internal AI Template Links
 
 - [AI Templates Hub](https://suhasbhairav.com/ai-templates)
 - [This Template Page](https://suhasbhairav.com/ai-templates/voice-ai-agents)
