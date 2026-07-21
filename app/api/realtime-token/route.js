@@ -1,6 +1,8 @@
+import { parseJsonRequest, validateRequestBody } from "@/lib/production-guardrails";
 export const runtime = "nodejs";
 
 const DEFAULT_MODEL = "gpt-realtime-2.1";
+const ALLOWED_MODELS = new Set(["gpt-realtime-2.1", "gpt-realtime", "gpt-4o-realtime-preview"]);
 const DEFAULT_VOICE = "marin";
 
 export async function POST(request) {
@@ -10,7 +12,12 @@ export async function POST(request) {
     });
   }
 
-  const body = await request.json().catch(() => ({}));
+  const body = await parseJsonRequest(request);
+  const guardrail = validateRequestBody(body);
+  if (!guardrail.ok) {
+    return Response.json({ error: guardrail.error }, { status: guardrail.status });
+  }
+
   const model =
     typeof body?.model === "string" && body.model.trim()
       ? body.model.trim()
